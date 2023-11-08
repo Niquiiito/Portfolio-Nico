@@ -1,0 +1,516 @@
+@font-face {
+    font-family: helvetica-th;
+    src: url(../Font/HelveticaNeueLTStd-Th.otf);
+}
+
+@font-face {
+    font-family: helvetica-roman;
+    src: url(../Font/HelveticaNeueLTStd-Roman.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+/* MENU */
+header {
+    display: flex;
+    margin: 4vh 20vw;
+    justify-content: space-between;
+    border-bottom: 1px rgb(34, 33, 33) solid;
+}
+
+
+
+.menuNav a {
+    text-transform: uppercase;
+    font-size: 1rem;
+
+}
+
+.menuNav a:hover {
+    color: #000000;
+
+}
+
+
+
+
+/* Logo */
+
+.logo {
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+
+}
+
+footer {
+    margin-top: auto;
+    border-top: 2px black solid;
+    text-align: center;
+
+}
+
+footer .iconos {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .iconos a {
+    text-decoration: none;
+    padding: 0px 15px;
+    margin: 20px 0px 5px 10px;
+    border-radius: 50px;
+    color: black;
+    font-size: 30px;
+
+}
+
+/* Estilos basicos de la pág */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: rgb(230, 225, 219);
+
+}
+
+h2 {
+    font-family: helvetica-th;
+    text-align: left;
+    font-weight: lighter;
+
+}
+
+p {
+    font-family: helvetica-th;
+    font-weight: 100;
+
+
+}
+
+/* MENU */
+
+.containerCartas {
+    padding: 0vh 20vw;
+}
+
+
+.cartas {
+    background-color: none;
+    padding: 1vw;
+
+
+}
+
+.cartas img {
+    flex-grow: 1;
+    border-radius: 10px;
+    padding-bottom: 5vh;
+
+
+
+}
+
+.cartas img:hover {
+    cursor: pointer;
+    filter: contrast(120%);
+}
+
+
+
+/* Proyectos */
+
+.tituloProyectos{
+    font-family: helvetica-th;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.video{
+    width: 100%;
+    height: 25vh;
+}
+
+.minutos{
+    justify-self: right;
+    align-self: right;
+
+}
+
+/* Proyectos - Audiovisual */
+
+
+
+/* BIO */
+
+.cajaContenedora1 {
+    display: flex;
+    margin: 0vh 20vw;
+    border-bottom: black solid 1px;
+}
+
+.textoBio{
+    font-size: 1.5rem;
+}
+
+#tituloBio{
+    font-size: 2.1rem;
+    font-family:helvetica-th;
+}
+
+.cajaItemTres {
+    padding-left: 14vh;
+    text-align: left;
+    padding-top: 1vh;
+    
+
+
+}
+
+.cajaItemUno img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 55vh;
+    width: 19vw;
+    padding-bottom: 4vh;
+   
+    
+
+}
+
+.cajaItemUno img:hover {
+    filter: contrast(120%);
+}
+
+
+.cajaContenedora2 {
+    display: flex;
+    margin: 2vh 20vw;
+   
+    
+}
+
+.portfolio {
+
+    display: flex inline-block;
+}
+
+.titulosPortfolio {
+    padding: 2vh 0vw
+}
+
+.tam {
+    font-weight: bolder;
+    padding: 2vh 0vw;
+    margin-right: 1vw;
+
+}
+
+.tamDos {
+    font-weight: bolder;
+    padding: 2vh 0vw;
+    margin-right: 3vw;
+}
+
+.textoEducacion {
+    font-size: 1.2rem;
+
+}
+/* .textoEducacionIdiomas {
+    font-size: 1.2rem;
+    
+} */
+
+
+.titulosPortfolio2 {
+    padding: 2vh 0vw
+}
+
+
+
+
+
+
+
+/* Formulario */
+
+.cajaContenedoraFormulario {
+    display: flex;
+    justify-content: space-between;
+    margin: 0vh 20vw;
+
+}
+
+.textoFormulario {
+    font-family: helvetica-th;
+    font-weight: 800;
+    margin: 0vh 0vw;
+    justify-self: center;
+    align-self: center;
+}
+
+.mapaFormulario {
+    margin: 1vh 0vw;
+    padding-left: 6vw;
+    width: 90vw;
+    height: auto;
+    border-radius: 10px;
+    justify-self: right;
+    align-self: right;
+
+}
+
+.boton{
+    background-color: rgb(213, 207, 200);
+    color: black;
+}
+
+.boton:hover{
+    background-color:rgb(218, 211, 203);
+
+}
+
+/* RESPONSIVES */
+
+
+
+@media (max-width: 600px) {
+
+    /* Menu */
+
+    footer {
+        margin-top: auto;
+        width: 100%;
+        height: auto;
+        justify-self: center;
+        align-self: center;
+    }
+
+    /* body{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "foto1"
+        "texto1"
+        "foto2"
+        "texto2"
+        "foto3"
+        "texto3"
+        "foto4"
+        "texto4"
+        ;
+    } */
+
+    /* Proyectos */
+
+
+    /* BIO */
+
+    .portfolio {
+        margin: 0vh 0vw;
+        padding: 0px;
+        width: 80%;
+        height: auto;
+
+    }
+
+    .cajaContenedora1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cajaContenedora2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .cajaItemUno img {
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+
+
+    }
+
+    .cajaItemTres {
+        padding-left: 0vh;
+        padding-top: 5vh;
+
+
+    }
+
+    /* CONTACTO */
+
+    .mapaFormulario {
+        display: none;
+    }
+
+    .formulario {
+        justify-self: center;
+        align-self: center;
+    }
+
+
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+
+    /* Menu */
+
+
+    footer {
+        width: 100%;
+        height: auto;
+
+    }
+
+    /* Proyectos */
+   
+  
+    /* BIO */
+
+    .portfolio {
+        margin: 0vh 0vw;
+        padding: 0px;
+        width: 80%;
+        height: auto;
+
+    }
+
+
+    .cajaContenedora1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cajaContenedora2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .cajaItemUno img {
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+
+
+    }
+
+    .cajaItemTres {
+        padding-left: 0vh;
+        padding-top: 5vh;
+
+    }
+
+    /* CONTACTO */
+
+    .mapaFormulario {
+        display: none;
+    }
+
+    .cajaContenedoraForm {
+
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+    /* Menu */
+
+
+
+    footer {
+        margin-top: auto;
+        width: 100%;
+        height: auto;
+        justify-self: center;
+        align-self: center;
+    }
+
+
+    /* Proyectos...*/
+
+
+    /* Portfolio */
+
+    /* .portfolio{
+        margin: 0vh 0vw;
+        padding: 0px;
+        width: 80%;
+        height: auto;
+    
+    }
+
+    .titulosPortfolio {
+        padding: 2vh 0vw
+    }
+    
+    .tam {
+        font-weight: bolder;
+        font-size: auto;
+        padding: 2vh 0vw
+    
+    }
+    
+    .titulosPortfolio2 {
+        padding: 2vh 0vw
+    } */
+
+
+
+    /* BIO */
+
+
+
+    .cajaContenedora1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 0px;
+
+    }
+    .cajaContenedora2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 0px;
+
+    }
+
+    .cajaItemUno img {
+        border-radius: 10px;
+        height: 90%;
+        width: 65%;
+
+
+    }
+
+    .cajaItemUno {
+
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .cajaItemTres {
+        padding-left: 0vh;
+        padding-top: 0vh;
+
+    }
+
+
+    /* CONTACTO */
+
+
+
+
+}
