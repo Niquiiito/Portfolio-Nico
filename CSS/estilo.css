@@ -238,57 +238,34 @@ p {
 }
 
 
-
-
-
-
-
 /* Formulario */
 
 .cajaContenedoraFormulario {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
     margin: 0vh 20vw;
-
+    background-image: url();
 }
 
 .textoFormulario {
     font-family: helvetica-th;
     font-weight: 800;
-    margin: 0vh 0vw;
+    margin: 2vh 0vw;
     justify-self: center;
     align-self: center;
+    font-size: 1.3rem;
 }
-
-.mapaFormulario {
-    margin: 1vh 0vw;
-    padding-left: 6vw;
-    width: 90vw;
-    height: auto;
-    border-radius: 10px;
-    justify-self: right;
-    align-self: right;
-
-}
-
 .boton{
     background-color: rgb(213, 207, 200);
     color: black;
 }
 
 .boton:hover{
-    background-color:rgb(218, 211, 203);
+    background-color:rgb(219, 213, 206);
 
 }
 
-.fotoVersa{
-    display: flex;
-    width: 100%;
-    height:45vh;
-    padding-left: 10vh;
-    object-fit: cover;
-
-}
 
 /* RESPONSIVES */
 
@@ -361,7 +338,7 @@ p {
 
     /* CONTACTO */
 
-    .fotoVersa {
+    .fotoVersa{
         display: none;
     }
 
