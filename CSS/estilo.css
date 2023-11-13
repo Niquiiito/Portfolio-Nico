@@ -131,6 +131,9 @@ p {
 
 
 /* Proyectos */
+.textoAltura{
+    height: 140px ;
+}
 
 .tituloProyectos{
     font-family: helvetica-th;
@@ -142,6 +145,7 @@ p {
     width: 100%;
     height: 24vh;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .minutos{
