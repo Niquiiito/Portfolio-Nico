@@ -292,23 +292,12 @@ p {
         align-self: center;
     }
 
-    /* body{
-        display: grid;
-        grid-template-areas: 
-        "header"
-        "foto1"
-        "texto1"
-        "foto2"
-        "texto2"
-        "foto3"
-        "texto3"
-        "foto4"
-        "texto4"
-        ;
-    } */
+   
 
     /* Proyectos */
-
+    .textoAltura{
+        height: 170px ;
+    }
 
     /* BIO */
 
@@ -347,10 +336,7 @@ p {
 
     /* CONTACTO */
 
-    /* .fotoVersa{
-        display: none;
-    } */
-
+   
     .formulario {
         justify-self: center;
         align-self: center;
@@ -374,7 +360,9 @@ p {
     }
 
     /* Proyectos */
-   
+    .textoAltura{
+        height: 230px ;
+    }
   
     /* BIO */
 
@@ -411,10 +399,7 @@ p {
     }
 
     /* CONTACTO */
-/* 
-    .fotoVersa{
-        display: none;
-    } */
+
 
    
     textoFormulario {
@@ -440,33 +425,10 @@ p {
 
 
     /* Proyectos...*/
-
-
-    /* Portfolio */
-
-    /* .portfolio{
-        margin: 0vh 0vw;
-        padding: 0px;
-        width: 80%;
-        height: auto;
-    
+    .textoAltura{
+        height: 250px ;
     }
-
-    .titulosPortfolio {
-        padding: 2vh 0vw
-    }
-    
-    .tam {
-        font-weight: bolder;
-        font-size: auto;
-        padding: 2vh 0vw
-    
-    }
-    
-    .titulosPortfolio2 {
-        padding: 2vh 0vw
-    } */
-
+  
 
 
     /* BIO */
@@ -506,11 +468,6 @@ p {
 
     }
 
-
-    /* CONTACTO */
-    /* .fotoVersa {
-        display: none;
-    } */
 
     textoFormulario {
         font-size: 1rem;
