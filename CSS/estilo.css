@@ -279,11 +279,7 @@ p {
     font-size: 1.4rem;
 }
 
-.textArea{
-    border: none;
-    border-radius: 10px;
 
-}
 
 /* RESPONSIVES */
 
@@ -294,7 +290,7 @@ p {
     /* Menu */
 
     footer {
-        margin-top: auto;
+        margin-top: 50px;
         width: 100%;
         height: auto;
         justify-self: center;
@@ -352,9 +348,13 @@ p {
     }
 
     .textoFormulario {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }   
 
+    .tamañoInput{
+        font-size: 0.8rem;
+    }
+    
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
@@ -363,6 +363,7 @@ p {
 
 
     footer {
+        margin-top: 50px;
         width: 100%;
         height: auto;
 
@@ -411,10 +412,14 @@ p {
 
 
    
-    textoFormulario {
-        font-size: 0.6rem;
+    .textoFormulario {
+        font-size: 1rem;
         
     }
+    .tamañoInput{
+        font-size: 1rem;
+    }
+    
 
 }
 
@@ -425,7 +430,7 @@ p {
 
 
     footer {
-        margin-top: auto;
+        margin-top: 50px;
         width: 100%;
         height: auto;
         justify-self: center;
@@ -478,10 +483,15 @@ p {
     }
 
 
-    textoFormulario {
-        font-size: 1rem;
+    .textoFormulario {
+        font-size: 1.2rem;
        
     }
+    
+    .tamañoInput{
+        font-size: 1.2rem;
+    }
+    
 
 
 
