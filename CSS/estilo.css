@@ -275,6 +275,15 @@ p {
 
 }
 
+.tamañoInput{
+    font-size: 1.4rem;
+}
+
+.textArea{
+    border: none;
+    border-radius: 10px;
+
+}
 
 /* RESPONSIVES */
 
