@@ -39,6 +39,10 @@ header {
 
 }
 
+.textoLinks{
+    
+    text-align: center;
+}
 
 
 
@@ -51,10 +55,12 @@ header {
 
 }
 
+
 footer {
-    margin-top: auto;
-    border-top: 2px black solid;
+    margin-top: 10vh;
+    border-top: 1px #b1b0b0 solid;
     text-align: center;
+    padding-top: 60px;
 
 }
 
@@ -67,12 +73,23 @@ footer .iconos {
 footer .iconos a {
     text-decoration: none;
     padding: 0px 15px;
-    margin: 20px 0px 5px 10px;
+    margin: 0px 0px 0px 20px;
     border-radius: 50px;
-    color: black;
+    color: rgb(6, 6, 6);
     font-size: 30px;
+    
 
 }
+/* 
+footer .iconosMenu a {
+    text-decoration: none;
+    padding: 0px 15px;
+    margin: 60px 0px 5px 10px;
+    border-radius: 50px;
+    color: rgb(6, 6, 6);
+    font-size: 40px;
+
+} */
 
 /* Estilos basicos de la pág */
 
@@ -192,7 +209,7 @@ p {
     object-fit: cover;
     height: 55vh;
     width: 19vw;
-    padding-bottom: 4vh;
+    margin-bottom: 4vh;
    
     
 
@@ -200,6 +217,7 @@ p {
 
 .cajaItemUno img:hover {
     filter: contrast(120%);
+
 }
 
 
@@ -268,6 +286,7 @@ p {
 .boton{
     background-color: rgb(213, 207, 200);
     color: black;
+    font-size: 1.3rem;
 }
 
 .boton:hover{
@@ -278,6 +297,8 @@ p {
 .tamañoInput{
     font-size: 1.4rem;
 }
+
+
 
 
 
