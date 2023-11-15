@@ -7,6 +7,25 @@
   font-family: helvetica-roman;
   src: url(../Font/HelveticaNeueLTStd-Roman.otf);
 }
+/* Estilos basicos de la pág */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: rgb(230, 225, 219);
+}
+
+h2 {
+  font-family: helvetica-th;
+  text-align: left;
+  font-weight: lighter;
+}
+
+p {
+  font-family: helvetica-th;
+  font-weight: 100;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -190,6 +209,9 @@ footer .iconosMenu a {
   border-radius: 50px;
   color: rgb(6, 6, 6);
   font-size: 40px;
+}
+footer .footerBottom {
+  margin: 30px 0px 20px 10px;
 }
 
 /* MENU */
@@ -451,24 +473,6 @@ footer .iconosMenu a {
   .tamañoInput {
     font-size: 1.2rem;
   }
-}
-/* Estilos basicos de la pág */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  background-color: rgb(230, 225, 219);
-}
-
-h2 {
-  font-family: helvetica-th;
-  text-align: left;
-  font-weight: lighter;
-}
-
-p {
-  font-family: helvetica-th;
-  font-weight: 100;
 }
 
 /*# sourceMappingURL=estilo.css.map */

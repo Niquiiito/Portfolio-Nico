@@ -8,17 +8,6 @@
     src: url(../Font/HelveticaNeueLTStd-Roman.otf);
 }
 
-@import "variables";
-@import "header";
-@import "medias";
-@import "footer";
-@import "index";
-@import "bio";
-@import "proyectos";
-@import "contacto";
-@import "medias";
-
-
 /* Estilos basicos de la pág */
 
 body {
@@ -38,3 +27,15 @@ p {
     font-family: helvetica-th;
     font-weight: 100;
 }
+
+@import "variables";
+@import "header";
+@import "medias";
+@import "footer";
+@import "index";
+@import "bio";
+@import "proyectos";
+@import "contacto";
+@import "medias";
+
+
