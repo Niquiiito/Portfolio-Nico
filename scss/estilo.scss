@@ -1,0 +1,40 @@
+@font-face {
+    font-family: helvetica-th;
+    src: url(../Font/HelveticaNeueLTStd-Th.otf);
+}
+
+@font-face {
+    font-family: helvetica-roman;
+    src: url(../Font/HelveticaNeueLTStd-Roman.otf);
+}
+
+@import "variables";
+@import "header";
+@import "medias";
+@import "footer";
+@import "index";
+@import "bio";
+@import "proyectos";
+@import "contacto";
+@import "medias";
+
+
+/* Estilos basicos de la pág */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: rgb(230, 225, 219);
+}
+
+h2 {
+    font-family: helvetica-th;
+    text-align: left;
+    font-weight: lighter;
+}
+
+p {
+    font-family: helvetica-th;
+    font-weight: 100;
+}

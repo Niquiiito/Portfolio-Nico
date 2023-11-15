@@ -1,0 +1,70 @@
+/* BIO */
+
+.cajaContenedora1 {
+    display: flex;
+    margin: 0vh 20vw;
+    border-bottom: black solid 1px;
+}
+
+.textoBio {
+    font-size: 1.5rem;
+}
+
+#tituloBio {
+    font-size: 2.1rem;
+    font-family: helvetica-th;
+}
+
+.cajaItemTres {
+    padding-left: 14vh;
+    text-align: left;
+    padding-top: 1vh;
+}
+
+.cajaItemUno img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 55vh;
+    width: 19vw;
+    margin-bottom: 4vh;
+
+    &:hover {
+        filter: contrast(120%);
+    }
+}
+
+.cajaContenedora2 {
+    display: flex;
+    margin: 2vh 20vw;
+}
+
+//Portfolio
+
+.portfolio {
+    display: flex inline-block;
+}
+
+.titulosPortfolio {
+    padding: 2vh 0vw;
+}
+
+.tam {
+    font-weight: bolder;
+    padding: 2vh 0vw;
+    margin-right: 1vw;
+}
+
+.tamDos {
+    font-weight: bolder;
+    padding: 2vh 0vw;
+    margin-right: 3vw;
+}
+
+.textoEducacion {
+    font-size: 1.2rem;
+}
+
+
+.titulosPortfolio2 {
+    padding: 2vh 0vw;
+}

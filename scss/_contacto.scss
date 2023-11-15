@@ -1,0 +1,32 @@
+/* Formulario */
+
+.cajaContenedoraFormulario {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0vh 20vw;
+    background-image: url();
+}
+
+.textoFormulario {
+    font-family: helvetica-th;
+    font-weight: 800;
+    margin: 2vh 0vw;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.3rem;
+}
+
+.boton {
+    background-color: rgb(213, 207, 200);
+    color: black;
+    font-size: 1.3rem;
+
+    &:hover {
+        background-color: rgb(219, 213, 206);
+    }
+}
+
+.tamañoInput {
+    font-size: 1.4rem;
+}

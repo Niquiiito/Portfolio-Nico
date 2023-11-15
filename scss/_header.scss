@@ -1,0 +1,41 @@
+//HEADER
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+/* NAV */
+
+header {
+    display: flex;
+    margin: 4vh 20vw;
+    justify-content: space-between;
+    border-bottom: 1px rgb(34, 33, 33) solid;
+}
+
+.menuNav a {
+    text-transform: uppercase;
+    font-size: 1rem;
+
+    &:hover {
+        color: #000000;
+    }
+}
+
+.textoLinks {
+    text-align: center;
+}
+
+/* Logo */
+
+.logo {
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}

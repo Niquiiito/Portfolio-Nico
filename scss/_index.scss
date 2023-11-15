@@ -1,0 +1,21 @@
+/* MENU */
+
+.containerCartas {
+    padding: 0vh 20vw;
+}
+
+.cartas {
+    background-color: none;
+    padding: 1vw;
+
+    img {
+        flex-grow: 1;
+        border-radius: 10px;
+        padding-bottom: 5vh;
+
+        &:hover {
+            cursor: pointer;
+            filter: contrast(120%);
+        }
+    }
+}
