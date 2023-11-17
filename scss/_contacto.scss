@@ -2,25 +2,25 @@
 
 .cajaContenedoraFormulario {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: $centrar;
+    align-content: $centrar;
     margin: 0vh 20vw;
     background-image: url();
 }
 
 .textoFormulario {
-    font-family: helvetica-th;
+    font-family: $fuenteTexto;
     font-weight: 800;
     margin: 2vh 0vw;
-    justify-self: center;
-    align-self: center;
-    font-size: 1.3rem;
+    justify-self: $centrar;
+    align-self: $centrar;
+    font-size:$tamTexto + 0.3rem;
 }
 
 .boton {
     background-color: rgb(213, 207, 200);
     color: black;
-    font-size: 1.3rem;
+    font-size:$tamTexto + 0.3rem;
 
     &:hover {
         background-color: rgb(219, 213, 206);
@@ -28,5 +28,5 @@
 }
 
 .tamañoInput {
-    font-size: 1.4rem;
+    font-size:$tamTexto + 0.4rem;
 }

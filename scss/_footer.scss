@@ -6,7 +6,7 @@ footer {
 
     .iconos {
         display: flex;
-        justify-content: center;
+        justify-content: $centrar;
 
         a {
             text-decoration: none;
@@ -14,7 +14,7 @@ footer {
             margin: 0px 0px 0px 20px;
             border-radius: 50px;
             color: rgb(6, 6, 6);
-            font-size: 30px;
+            font-size:$tamTexto + 0.9rem;
         }
     }
 
@@ -24,7 +24,7 @@ footer {
         margin: 60px 0px 5px 10px;
         border-radius: 50px;
         color: rgb(6, 6, 6);
-        font-size: 40px;
+        font-size:$tamTexto + 1.5rem;
     }
 
     .footerBottom{

@@ -21,7 +21,7 @@ header {
 
 .menuNav a {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: $tamTexto;
 
     &:hover {
         color: #000000;
@@ -29,7 +29,7 @@ header {
 }
 
 .textoLinks {
-    text-align: center;
+    text-align: $centrar;
 }
 
 /* Logo */
