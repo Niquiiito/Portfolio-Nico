@@ -1,0 +1,19 @@
+@mixin hoverImg{
+    filter: contrast(120%);
+
+}
+
+@mixin centrarSelf{
+    justify-self: center;
+    align-self: center;
+}
+
+@mixin centrarContent{
+    justify-content: center;
+    align-content: center;
+}
+
+@mixin bioTexto{
+    font-weight: bolder;
+    padding: 2vh 0vw;
+}

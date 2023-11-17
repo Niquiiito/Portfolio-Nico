@@ -15,7 +15,7 @@
 
         &:hover {
             cursor: pointer;
-            filter: contrast(120%);
+            @include hoverImg;
         }
     }
 }

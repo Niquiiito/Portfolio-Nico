@@ -3,10 +3,10 @@
   font-family: helvetica-th;
   src: url(../Font/HelveticaNeueLTStd-Th.otf);
 }
-@font-face {
+/* @font-face {
   font-family: helvetica-roman;
   src: url(../Font/HelveticaNeueLTStd-Roman.otf);
-}
+} */
 /* Estilos basicos de la pág */
 body {
   display: flex;
@@ -63,127 +63,7 @@ header {
   cursor: pointer;
 }
 
-/* RESPONSIVES */
-@media (max-width: 600px) {
-  /* Menu */
-  footer {
-    margin-top: 50px;
-    width: 100%;
-    height: auto;
-    justify-self: center;
-    align-self: center;
-  }
-  /* Proyectos */
-  .textoAltura {
-    height: 170px;
-  }
-  /* BIO */
-  .portfolio {
-    margin: 0vh 0vw;
-    padding: 0px;
-    width: 80%;
-    height: auto;
-  }
-  .cajaContenedora1,
-  .cajaContenedora2 {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .cajaItemUno img {
-    border-radius: 10px;
-    height: 100%;
-    width: 100%;
-  }
-  .cajaItemTres {
-    padding-left: 0vh;
-    padding-top: 5vh;
-  }
-  /* CONTACTO */
-  .formulario {
-    justify-self: center;
-    align-self: center;
-  }
-  .textoFormulario,
-  .tamañoInput {
-    font-size: 0.8rem;
-  }
-}
-@media (min-width: 600px) and (max-width: 768px) {
-  /* Menu */
-  footer {
-    margin-top: 50px;
-    width: 100%;
-    height: auto;
-  }
-  /* Proyectos */
-  .textoAltura {
-    height: 230px;
-  }
-  /* BIO */
-  .portfolio {
-    margin: 0vh 0vw;
-    padding: 0px;
-    width: 80%;
-    height: auto;
-  }
-  .cajaContenedora1,
-  .cajaContenedora2 {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .cajaItemUno img {
-    border-radius: 10px;
-    height: 100%;
-    width: 100%;
-  }
-  .cajaItemTres {
-    padding-left: 0vh;
-    padding-top: 5vh;
-  }
-  /* CONTACTO */
-  .textoFormulario,
-  .tamañoInput {
-    font-size: 1rem;
-  }
-}
-@media (min-width: 769px) and (max-width: 1200px) {
-  /* Menu */
-  footer {
-    margin-top: 50px;
-    width: 100%;
-    height: auto;
-    justify-self: center;
-    align-self: center;
-  }
-  /* Proyectos...*/
-  .textoAltura {
-    height: 250px;
-  }
-  /* BIO */
-  .cajaContenedora1,
-  .cajaContenedora2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 0px;
-  }
-  .cajaItemUno {
-    padding: 0px;
-    margin: 0px;
-  }
-  .cajaItemUno img {
-    border-radius: 10px;
-    height: 90%;
-    width: 65%;
-  }
-  .cajaItemTres {
-    padding-left: 0vh;
-    padding-top: 0vh;
-  }
-  .textoFormulario,
-  .tamañoInput {
-    font-size: 1.2rem;
-  }
-}
+/* Footer */
 footer {
   margin-top: 10vh;
   border-top: 1px #b1b0b0 solid;

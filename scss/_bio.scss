@@ -29,7 +29,7 @@
     margin-bottom: 4vh;
 
     &:hover {
-        filter: contrast(120%);
+        @include hoverImg;
     }
 }
 
@@ -45,19 +45,17 @@
 }
 
 .titulosPortfolio {
-    padding: 2vh 0vw;
+   padding: $paddingTextoBio;
 }
 
 .tam {
-    font-weight: bolder;
-    padding: 2vh 0vw;
     margin-right: 1vw;
+    @include bioTexto;
 }
 
 .tamDos {
-    font-weight: bolder;
-    padding: 2vh 0vw;
     margin-right: 3vw;
+    @include bioTexto;
 }
 
 .textoEducacion {
@@ -66,5 +64,5 @@
 
 
 .titulosPortfolio2 {
-    padding: 2vh 0vw;
+    padding:$paddingTextoBio;
 }

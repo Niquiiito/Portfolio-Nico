@@ -7,8 +7,7 @@
         margin-top: 50px;
         width: 100%;
         height: auto;
-        justify-self: $centrar;
-        align-self: $centrar;
+        @include centrarSelf;
     }
 
     /* Proyectos */
@@ -46,8 +45,7 @@
     /* CONTACTO */
 
     .formulario {
-        justify-self: $centrar;
-        align-self: $centrar;
+        @include centrarSelf
     }
 
     .textoFormulario,
@@ -112,8 +110,7 @@
         margin-top: 50px;
         width: 100%;
         height: auto;
-        justify-self: $centrar;
-        align-self: $centrar;
+        @include centrarSelf
     }
 
     /* Proyectos...*/

@@ -2,8 +2,7 @@
 
 .cajaContenedoraFormulario {
     display: flex;
-    justify-content: $centrar;
-    align-content: $centrar;
+    @include centrarContent;
     margin: 0vh 20vw;
     background-image: url();
 }
@@ -12,8 +11,7 @@
     font-family: $fuenteTexto;
     font-weight: 800;
     margin: 2vh 0vw;
-    justify-self: $centrar;
-    align-self: $centrar;
+    @include centrarSelf;
     font-size:$tamTexto + 0.3rem;
 }
 
