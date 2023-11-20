@@ -21,3 +21,16 @@
   justify-self: right;
   align-self: right;
 }
+
+.fotoPortada{
+    width: 75%;
+    height: 20vh;
+    padding-left:26vw;
+    padding-top: 6vh;
+    filter: blur(0.2rem);
+    object-fit: cover;
+  }
+
+.textoMusica{
+  font-size:$tamTexto + 0,2rem;
+}
