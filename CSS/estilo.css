@@ -111,6 +111,7 @@ footer .footerBottom {
 .cartas img:hover {
   cursor: pointer;
   filter: contrast(120%);
+  transform: scale(1.2,1.2);
 }
 
 /* BIO */
@@ -144,6 +145,7 @@ footer .footerBottom {
 }
 .cajaItemUno img:hover {
   filter: contrast(120%);
+  transform: translate(5px,0px);
 }
 
 .cajaContenedora2 {
