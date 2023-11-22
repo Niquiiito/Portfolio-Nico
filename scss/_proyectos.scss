@@ -34,3 +34,7 @@
 .textoMusica{
   font-size:$tamTexto + 0,2rem;
 }
+
+.hov:hover{
+  transform: scale(1.01,1.01);
+}

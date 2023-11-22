@@ -111,7 +111,7 @@ footer .footerBottom {
 .cartas img:hover {
   cursor: pointer;
   filter: contrast(120%);
-  transform: scale(1.2,1.2);
+  transform: scale(1.1,1.1);
 }
 
 /* BIO */
@@ -245,6 +245,12 @@ footer .footerBottom {
 .tamañoInput {
   font-size: 1.4rem;
 }
+
+.hov:hover{
+  transform: scale(1.01,1.01);
+}
+
+
 
 /* RESPONSIVES */
 @media (max-width: 600px) {
