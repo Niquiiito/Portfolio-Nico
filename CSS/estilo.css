@@ -221,6 +221,14 @@ footer .footerBottom {
   font-size: 1.2rem;
 }
 
+.player iframe{
+  border-radius: 10px;
+}
+
+.player:hover{
+transform: scale(1.01,1.01);
+}
+
 /* Formulario */
 .cajaContenedoraFormulario {
   display: flex;
