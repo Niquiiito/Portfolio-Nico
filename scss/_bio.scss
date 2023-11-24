@@ -12,7 +12,6 @@
 
 #tituloBio {
     font-size:$tamTexto + 1.1rem;
-    font-family: $fuenteTexto;
 }
 
 .cajaItemTres {
@@ -29,7 +28,7 @@
     margin-bottom: 4vh;
 
     &:hover {
-        transform: translate(5px,0px);
+        transform: translate(5px,0px);  
         @include hoverImg;
     }
 }

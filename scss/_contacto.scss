@@ -8,11 +8,10 @@
 }
 
 .textoFormulario {
-    font-family: $fuenteTexto;
     font-weight: 800;
     margin: 2vh 0vw;
     @include centrarSelf;
-    font-size:$tamTexto + 0.3rem;
+
 }
 
 .boton {
