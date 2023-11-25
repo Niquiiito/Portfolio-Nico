@@ -29,7 +29,7 @@
 
     &:hover {
         transform: translate(5px,0px);  
-        @include hoverImg;
+        filter:$hoverImgBio;
     }
 }
 

@@ -12,11 +12,14 @@
         flex-grow: 1;
         border-radius: 10px;
         padding-bottom: 5vh;
+        height: 60vh;
+        width: 14.5vw;
+        object-fit: cover;
 
         &:hover {
             cursor: pointer;
             transform: scale(1.1,1.1);
-            @include hoverImg;
+            filter: $hoverImgMenu;
         }
     }
 }

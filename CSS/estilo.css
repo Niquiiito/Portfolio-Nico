@@ -89,14 +89,7 @@ footer .iconos a {
   color: rgb(6, 6, 6);
   font-size: 30px;
 }
-footer .iconosMenu a {
-  text-decoration: none;
-  padding: 0px 15px;
-  margin: 60px 0px 5px 10px;
-  border-radius: 50px;
-  color: rgb(6, 6, 6);
-  font-size: 30px;
-}
+
 footer .footerBottom {
   margin: 30px 0px 20px 10px;
 }
@@ -104,21 +97,26 @@ footer .footerBottom {
 /* MENU */
 .containerCartas {
   padding: 0vh 20vw;
+
 }
 
 .cartas {
   background-color: none;
   padding: 1vw;
+
 }
 .cartas img {
   flex-grow: 1;
   border-radius: 10px;
   padding-bottom: 5vh;
+  height: 60vh;
+  width: 14.5vw;
+  object-fit: cover;
 }
 .cartas img:hover {
   cursor: pointer;
-  filter: contrast(120%);
-  transform: scale(1.1,1.1);
+  filter:brightness(130%);
+  transform: scale(1.05,1.09);
 }
 
 /* BIO */
@@ -212,7 +210,7 @@ footer .footerBottom {
 .fotoPortada{
   width: 75%;
   height: 20vh;
-  padding-left:26vw;
+  padding-left:25vw;
   padding-top: 6vh;
   filter: blur(0.2rem);
   object-fit: cover;
