@@ -2,7 +2,11 @@
 
 @media (max-width: 600px) {
     /* Menu */
-
+    .cartas img {
+        height: 73vh;
+        width: 55vw;
+        padding-left: 7vw;
+      }
     footer {
         margin-top: 50px;
         width: 100%;
@@ -13,7 +17,7 @@
     /* Proyectos */
 
     .textoAltura {
-        height: 170px;
+        height: 294px;
     }
 
     /* BIO */
@@ -57,6 +61,11 @@
 @media (min-width: 600px) and (max-width: 768px) {
     /* Menu */
 
+    .cartas img {
+        height: 73vh;
+        width: 55vw;
+        padding-left: 7vw;
+      }
     footer {
         margin-top: 50px;
         width: 100%;
@@ -66,7 +75,7 @@
     /* Proyectos */
 
     .textoAltura {
-        height: 230px;
+        height: 260px;
     }
 
     /* BIO */
@@ -105,6 +114,10 @@
 
 @media (min-width: 769px) and (max-width: 1200px) {
     /* Menu */
+    .cartas img {
+        height: 70vh;
+        width: 28vw;
+      }
 
     footer {
         margin-top: 50px;
@@ -116,7 +129,7 @@
     /* Proyectos...*/
 
     .textoAltura {
-        height: 250px;
+        height: 270px;
     }
 
     /* BIO */
