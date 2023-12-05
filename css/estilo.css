@@ -1,0 +1,403 @@
+@charset "UTF-8";
+@font-face {
+  font-family: helvetica-th;
+  src: url(../font/HelveticaNeueLTStd-Th.otf);
+}
+/* @font-face {
+  font-family: helvetica-roman;
+  src: url(../Font/HelveticaNeueLTStd-Roman.otf);
+} */
+/* Estilos basicos de la pág */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: rgb(230, 225, 219);
+}
+
+h1{
+  font-family: helvetica-th;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 1.7rem ;
+}
+
+h2 {
+  font-family: helvetica-th;
+  text-align: left;
+  font-weight: lighter;
+}
+
+p {
+  font-family: helvetica-th;
+  font-weight: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+/* NAV */
+header {
+  display: flex;
+  margin: 4vh 20vw;
+  justify-content: space-between;
+  border-bottom: 1px rgb(34, 33, 33) solid;
+}
+
+.menuNav a {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.menuNav a:hover {
+  color: #000000;
+}
+
+.textoLinks {
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  margin-top: 10vh;
+  border-top: 1px #b1b0b0 solid;
+  text-align: center;
+  padding-top: 60px;
+}
+footer .iconos {
+  display: flex;
+  justify-content: center;
+}
+footer .iconos a {
+  text-decoration: none;
+  padding: 0px 15px;
+  margin: 0px 0px 0px 20px;
+  border-radius: 50px;
+  color: rgb(6, 6, 6);
+  font-size: 30px;
+}
+
+footer .footerBottom {
+  margin: 30px 0px 20px 10px;
+}
+
+/* MENU */
+.containerCartas {
+  padding: 0vh 20vw;
+
+}
+
+.cartas {
+  background-color: none;
+  padding: 1vw;
+
+}
+.cartas img {
+  flex-grow: 1;
+  border-radius: 10px;
+  padding-bottom: 5vh;
+  height: 60vh;
+  width: 14.5vw;
+  object-fit: cover;
+}
+.cartas img:hover {
+  cursor: pointer;
+  filter:brightness(130%);
+  transform: scale(1.05,1.09);
+}
+
+/* BIO */
+.cajaContenedora1 {
+  display: flex;
+  margin: 0vh 20vw;
+  border-bottom: black solid 1px;
+}
+
+.textoBio {
+  font-size: 1.5rem;
+}
+
+#tituloBio {
+  font-size: 2.1rem;
+  
+}
+
+.cajaItemTres {
+  padding-left: 14vh;
+  text-align: left;
+  padding-top: 1vh;
+}
+
+.cajaItemUno img {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 55vh;
+  width: 19vw;
+  margin-bottom: 4vh;
+}
+.cajaItemUno img:hover {
+  filter: contrast(120%);
+  transform: translate(5px,0px);
+}
+
+.cajaContenedora2 {
+  display: flex;
+  margin: 2vh 20vw;
+}
+
+.portfolio {
+  display: flex inline-block;
+}
+
+.titulosPortfolio {
+  padding: 2vh 0vw;
+}
+
+.tam {
+  font-weight: bolder;
+  padding: 2vh 0vw;
+  margin-right: 1vw;
+}
+
+.tamDos {
+  font-weight: bolder;
+  padding: 2vh 0vw;
+  margin-right: 3vw;
+}
+
+.textoEducacion {
+  font-size: 1.2rem;
+}
+
+.titulosPortfolio2 {
+  padding: 2vh 0vw;
+}
+
+/* Proyectos */
+.textoAltura {
+  height: 140px;
+}
+
+.tituloProyectos {
+  text-align: center;
+
+}
+
+.video {
+  height: 24vh;
+  object-fit: cover;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.minutos {
+  justify-self: right;
+  align-self: right;
+}
+.fotoPortada{
+  width: 75%;
+  height: 20vh;
+  padding-left:25vw;
+  padding-top: 6vh;
+  filter: blur(0.2rem);
+  object-fit: cover;
+}
+.textoMusica{
+  font-size: 1.2rem;
+}
+
+.player iframe{
+  border-radius: 10px;
+}
+
+.player:hover{
+transform: scale(1.01,1.01);
+}
+
+/* Formulario */
+.cajaContenedoraFormulario {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0vh 20vw;
+  background-image: url();
+}
+
+.textoFormulario {
+  font-weight: 800;
+  margin: 2vh 0vw;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.3rem;
+}
+
+.boton {
+  background-color: rgb(213, 207, 200);
+  color: black;
+  font-size: 1.3rem;
+}
+.boton:hover {
+  background-color: rgb(219, 213, 206);
+}
+
+.tamañoInput {
+  font-size: 1.4rem;
+}
+
+.hov:hover{
+  transform: scale(1.01,1.01);
+}
+
+
+
+/* RESPONSIVES */
+@media (max-width: 600px) {
+  /* Menu */
+  .cartas img {
+    height: 73vh;
+    width: 74vw;
+    padding-right: 5vh;
+    border-radius: 0px;
+  }
+  footer {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+  }
+  /* Proyectos */
+  .textoAltura {
+    height: 294px;
+  }
+  /* BIO */
+  .portfolio {
+    margin: 0vh 0vw;
+    padding: 0px;
+    width: 80%;
+    height: auto;
+  }
+  .cajaContenedora1,
+  .cajaContenedora2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .cajaItemUno img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  .cajaItemTres {
+    padding-left: 0vh;
+    padding-top: 5vh;
+  }
+  /* CONTACTO */
+  .formulario {
+    justify-self: center;
+    align-self: center;
+  }
+  .textoFormulario,
+  .tamañoInput {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  /* Menu */
+  .cartas img {
+    height: 73vh;
+    width: 55vw;
+    padding-left: 7vw;
+  }
+  footer {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+  }
+  /* Proyectos */
+  .textoAltura {
+    height: 260px;
+  }
+  /* BIO */
+  .portfolio {
+    margin: 0vh 0vw;
+    padding: 0px;
+    width: 80%;
+    height: auto;
+  }
+  .cajaContenedora1,
+  .cajaContenedora2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .cajaItemUno img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  .cajaItemTres {
+    padding-left: 0vh;
+    padding-top: 5vh;
+  }
+  /* CONTACTO */
+  .textoFormulario,
+  .tamañoInput {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  /* Menu */
+  .cartas img {
+    height: 70vh;
+    width: 28vw;
+  }
+  footer {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+  }
+  /* Proyectos...*/
+  .textoAltura {
+    height: 270px;
+  }
+  /* BIO */
+  .cajaContenedora1,
+  .cajaContenedora2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 0px;
+  }
+  .cajaItemUno {
+    padding: 0px;
+    margin: 0px;
+  }
+  .cajaItemUno img {
+    border-radius: 10px;
+    height: 90%;
+    width: 65%;
+  }
+  .cajaItemTres {
+    padding-left: 0vh;
+    padding-top: 0vh;
+  }
+  .textoFormulario,
+  .tamañoInput {
+    font-size: 1.2rem;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
