@@ -268,8 +268,9 @@ transform: scale(1.01,1.01);
   /* Menu */
   .cartas img {
     height: 73vh;
-    width: 55vw;
-    padding-left: 7vw;
+    width: 74vw;
+    padding-right: 5vh;
+    border-radius: 0px;
   }
   footer {
     margin-top: 50px;

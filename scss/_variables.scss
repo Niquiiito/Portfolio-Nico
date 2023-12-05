@@ -7,6 +7,4 @@ $paddingTextoBio:2vh 0vw;
 $hoverImgBio:contrast(120%);
 $hoverImgMenu:brightness(130%);
 
-@mixin hoverImgMenu{
-    filter:brightness(130%);
-}
+
