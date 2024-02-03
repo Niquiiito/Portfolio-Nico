@@ -145,10 +145,10 @@ footer .footerBottom {
   background: rgb(188, 177, 177);
   cursor: pointer;
   border: none;
-  padding: 1.1rem 1.5rem;
+  padding: 0.9rem 1.2rem;
   color: rgb(255, 255, 255);
   font-family: helvetica-th;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: bold;
   position: relative;
   border-radius: 12px;
